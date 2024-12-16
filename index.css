@@ -1,0 +1,44 @@
+.contenedor {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(18, 13, 13);
+}
+
+
+/* Elementos block */
+
+.bloque {
+    background-color: rgb(141, 205, 99);
+    border: 2px solid rgb(227, 129, 227);
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.en-linea {
+    background-color: rgb(66, 73, 204);
+    border: 2px solid rgb(210, 220, 68);
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* Elementos inline-block */
+
+.en-linea-bloque {
+    background-color: rgb(152, 152, 211);
+    border: 2px solid rgb(70, 70, 185);
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Pseudo clase*/
+
+.en-linea-bloque:hover {
+    background-color: rgb(166, 83, 139);
+    color: rgb(255, 250, 253);
+}
